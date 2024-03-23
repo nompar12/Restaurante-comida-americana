@@ -1,0 +1,36 @@
+body {
+    background-image: url("../imagenes/vista-superior-comida-americana-espacio-copia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  }
+  h1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  h2{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  }
+  label{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  p{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  h3{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  button{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  input{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }

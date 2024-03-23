@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Americankitchen</title>
+    <link rel="stylesheet" href="./Css/productos.css">
+</head>
+<div id="carrito"></div>
+
+
+<body>
+
+    <header>
+
+
+        <nav>
+            <ul>
+            </ul>
+        </nav>
+    </header>
+    <p>
+        <script>
+            var carrito = document.getElementById("carrito");
+
+            function agregarCarrito() {
+                var emoji = "🛒 Hamburguesa";
+                carrito.innerHTML += emoji;
+            }
+
+            function agregarCarrito1() {
+                var emoji = "🛒 Alitas";
+                carrito.innerHTML += emoji;
+            }
+
+            function agregarCarrito2() {
+                var emoji = "🛒 Pancakes";
+                carrito.innerHTML += emoji;
+            }
+
+            function agregarCarrito3() {
+                var emoji = "🛒 Sandwich";
+                carrito.innerHTML += emoji;
+            }
+
+            function agregarCarrito4() {
+                var emoji = "🛒 Costillas";
+                carrito.innerHTML += emoji;
+            }
+        </script>
+    </p>
+    <p>
+        <h1>Americankitchen</h1>
+
+        <p class="p-carro">
+
+            <a class="Carro" href="Metodos.html"><img src="./Imagenes/Carrito de compras.jpg" width="5%">
+            </a>
+        </p>
+    </p>
+    <section id="destacados">
+        <h2>Productos destacados</h2>
+        <div class="producto">
+            <img src="./imagenes/Hamburguesa.jpg" alt="Hamburguesa Americana" width="15%">
+            <h3>Hamburguesa Americana</h3>
+            <p>Ricas hambuerguesas con carne americana <br> y otros ingrendientes muy frescos</p>
+            <button onclick="agregarCarrito()">Agregar al carrito</button>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="producto">
+            <img src="./imagenes/Alitas.jpg" alt="Producto 2" width="15%">
+            <h3>Alitas Buffalo</h3>
+            <p>Ricas alitas de pollo 100% <br> Americano, con una salsa, solo te digo uff</p>
+            <button onclick="agregarCarrito1()">Agregar al carrito</button>
+        </div>
+        <br>
+        <br>
+        <br>
+    </section>
+    <section id="productos">
+        <h2>Todos los productos</h2>
+        <div class="producto">
+            <img src="./imagenes/Pancakes.webp" alt="Producto 3" width="15%">
+            <h3>pancakes</h3>
+            <p>Ricos pancakes con miel, frutas y chantilly <br>con un sabor que te lleva al mas alla</p>
+            <button onclick="agregarCarrito2()">Agregar al carrito</button>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="producto">
+            <img src="./imagenes/Sandwich.jpg" alt="Producto 4" width="15%">
+            <h3>Sandwich Americano</h3>
+            <p>Sandwich Fresco hecho con jamon de <br>pavo queso de caballo y nariz de cerdo</p>
+            <button onclick="agregarCarrito3()">Agregar al carrito</button>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="producto">
+            <img src="./imagenes/Pizza.jpg" alt="Producto 4" width="15%">
+            <h3>Pizza chicago style</h3>
+            <p>Rica pizza de pedazos de costilla <br> a la chicago style con gran cantidad de queso</p>
+            <button onclick="agregarCarrito4()">Agregar al carrito</button>
+        </div>
+    </section>
+    <a href="devoluciones.html">Formulario Devoluciones</a><br>
+    <a href="inicio.html">Salir</a><br>
+    <button><a href="Metodos.html"> Pagar </button>
+    <footer>
+        <p>&copy; 2023 Tienda en línea. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+
+</html>

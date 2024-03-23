@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./Css/Inicio.css">
+  <title>Inicio de sesión</title>
+  <script>
+    function validarInicioSesion() {
+      var direccion = document.getElementById("direccion").value;
+      var contrasena = document.getElementById("contrasena").value;
+      
+      
+      if (direccion === "usuario@example.com" && contrasena === "contraseña") {
+       
+        window.location.href = "productos.html";
+       
+      } else if(direccion === "nompar89@gmail.com" && contrasena === "Alejo821"){
+
+        window.location.href = "productos.html";
+       
+      } else if(direccion === "padre@hotmail.com" && contrasena === "Alejo821"){
+
+        window.location.href = "productos.html";
+       
+      } else if(direccion === "Alejogomez@hotmail.com" && contrasena === "AlejoGomez"){
+
+        window.location.href = "productos.html";
+      
+      } else if(direccion === "JoseGabriel@hotmail.com" && contrasena === "Josegabo"){
+
+        window.location.href = "productos.html";
+      
+      } else if (direccion === "correo2@example.com" && contrasena === "contrasena2") {
+
+        window.location.href = "productos.html";
+
+       } else if (direccion === "correo3@example.com" && contrasena === "contrasena3") {
+
+        window.location.href = "productos.html";
+
+      }else{
+
+        window.location.href = "inicio_incorrecto.html";
+        
+      }
+     }
+  </script>
+</head>
+<body>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+    <h1>Bienvenido a Americankitchen</h1> 
+    <h2>Antes de ver nustro contenido inicia sesion <br>
+      o registrarte abajo para acceder a otro mundo</h2>
+  
+  <form>
+    <label for="direccion">Dirección de correo:</label>
+    <input type="email" id="direccion" required><br>
+    
+    <label for="contrasena">Contraseña:</label>
+    <input type="password" id="contrasena" required><br>
+    
+    <input type="button" value="Iniciar sesión" onclick="validarInicioSesion()">
+  </form>
+  <p>¿No has iniciado sesión? <a href="registro.html">Registrate aquí</a></p>
+</body>
+</html>
+
+
+

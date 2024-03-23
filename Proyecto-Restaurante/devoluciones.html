@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulario de Devolución de Producto</title>
+<link rel="stylesheet" href="./Css/devoluciones.css">
+</head>
+<body>
+  <h1>Formulario de Devolución de Producto</h1>
+  <form action="procesar_devolucion.php" method="POST" enctype="multipart/form-data">
+    <h2>Información del cliente:</h2>
+    <label for="nombre">Nombre completo:</label>
+    <input type="text" id="nombre" name="nombre" required><br><br>
+
+    <label for="email">Dirección de correo electrónico:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="telefono">Número de teléfono:</label>
+    <input type="tel" id="telefono" name="telefono" required><br><br>
+
+    <label for="direccion">Dirección de envío original:</label>
+    <textarea id="direccion" name="direccion" required></textarea><br><br>
+
+    <h2>Información del producto:</h2>
+    <label for="producto">Nombre del producto:</label>
+    <input type="text" id="producto" name="producto" required><br><br>
+
+    <label for="pedido">Número de pedido:</label>
+    <input type="text" id="pedido" name="pedido" required><br><br>
+
+    <label for="fecha">Fecha de compra:</label>
+    <input type="date" id="fecha" name="fecha" required><br><br>
+
+    <label for="motivo">Motivo de la devolución:</label>
+    <textarea id="motivo" name="motivo" required></textarea><br><br>
+
+    <h2>Detalles adicionales:</h2>
+    <label for="opcion">¿Deseas un reembolso o un reemplazo?</label>
+    <select id="opcion" name="opcion" required>
+      <option value="reembolso">Reembolso</option>
+      <option value="reemplazo">Reemplazo</option>
+    </select><br><br>
+
+    <label for="comentarios">Detalles adicionales o comentarios:</label>
+    <textarea id="comentarios" name="comentarios"></textarea><br><br>
+
+    <h2>Documentos adjuntos (si es necesario):</h2>
+    <input type="file" id="adjuntos" name="adjuntos"><br><br>
+
+    <input type="submit" value="Enviar">
+  </form>
+</body>
+</html>
+<p>¿No quieres hacer una devolución? <a href="productos.html">Inicio</a></p>
